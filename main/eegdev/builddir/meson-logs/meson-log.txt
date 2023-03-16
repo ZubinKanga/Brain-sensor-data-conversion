@@ -1,0 +1,205 @@
+Build started at 2022-07-02T12:52:09.405552
+Main binary: C:/msys64/mingw64/bin/python.exe
+Build Options: 
+Python system: Windows
+The Meson build system
+Version: 0.62.2
+Source dir: C:/Users/zkangabci/Git/eegdev
+Build dir: C:/Users/zkangabci/Git/eegdev/builddir
+Build type: native build
+Project name: eegdev
+Project version: 1.0
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: C:/Users/zkangabci/Git/eegdev/builddir/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 12.1.0 "cc (Rev2, Built by MSYS2 project) 12.1.0")
+C linker for the host machine: cc ld.bfd 2.38
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: C:/Users/zkangabci/Git/eegdev/builddir/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 12.1.0 "cc (Rev2, Built by MSYS2 project) 12.1.0")
+C linker for the build machine: cc ld.bfd 2.38
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmp1d5f_5de
+Command line:  cc C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmp1d5f_5de/testfile.c -o C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmp1d5f_5de/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lmmlib -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library mmlib found: YES
+Running compile:
+Working directory:  C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpx6zm0mx3
+Command line:  cc C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpx6zm0mx3/testfile.c -o C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpx6zm0mx3/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lxdffileio -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library xdffileio found: YES
+Pkg-config binary for 1 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: C:\msys64\mingw64\bin/pkg-config.EXE (1.8.0)
+Determining dependency 'tre' with pkg-config executable 'C:\\msys64\\mingw64\\bin/pkg-config.EXE'
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --modversion tre` -> 0
+0.8.0
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --cflags tre` -> 0
+-IC:/msys64/mingw64/include -D_FORTIFY_SOURCE=2 -D__USE_MINGW_ANSI_STDIO=1
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --libs tre` -> 0
+-LC:/msys64/mingw64/lib -ltre -pipe -lintl
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --libs tre` -> 0
+-LC:/msys64/mingw64/lib -ltre -pipe -lintl
+Running compile:
+Working directory:  C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpvnbh19rl
+Command line:  cc C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpvnbh19rl/testfile.c -o C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpvnbh19rl/output.exe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpd_mdiwra
+Command line:  cc C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpd_mdiwra/testfile.c -o C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpd_mdiwra/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/
+programs: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/x86_64-w64-mingw32/12.1.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/
+libraries: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/12.1.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../x86_64-w64-mingw32/12.1.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;D:/a/msys64/mingw64/lib/x86_64-w64-mingw32/12.1.0/;D:/a/msys64/mingw64/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../;D:/a/msys64/mingw64/lib/
+
+Compiler stderr:
+ 
+Run-time dependency tre found: YES 0.8.0
+Pkg-config binary for 1 is cached.
+Determining dependency 'libusb-1.0' with pkg-config executable 'C:\\msys64\\mingw64\\bin/pkg-config.EXE'
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --modversion libusb-1.0` -> 1
+
+CMake binary for 1 is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Did not find CMake 'cmake'
+Found CMake: NO
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency libusb-1.0 found: NO (tried pkgconfig and cmake)
+Dependency bluez skipped: feature neurosky disabled
+Pkg-config binary for 1 is cached.
+Determining dependency 'expat' with pkg-config executable 'C:\\msys64\\mingw64\\bin/pkg-config.EXE'
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --modversion expat` -> 0
+2.4.8
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --cflags expat` -> 0
+-IC:/msys64/mingw64/include
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --libs expat` -> 0
+-LC:/msys64/mingw64/lib -lexpat
+env[PKG_CONFIG_PATH]: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --libs expat` -> 0
+-LC:/msys64/mingw64/lib -lexpat
+Run-time dependency expat found: YES 2.4.8
+Running compile:
+Working directory:  C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpcvtp2_l1
+Command line:  cc C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpcvtp2_l1/testfile.c -o C:/Users/zkangabci/Git/eegdev/builddir/meson-private/tmpcvtp2_l1/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -leego-SDK -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libeego-SDK.a when searching for -leego-SDK
+
+Library eego-SDK found: YES
+Program flex found: YES (C:\msys64\usr\bin/flex.EXE)
+Program bison found: YES (C:\msys64\usr\bin/bison.EXE)
+WARNING: You should add the boolean check kwarg to the run_command call.
+         It currently defaults to false,
+         but it will default to true in future releases of meson.
+         See also: https://github.com/mesonbuild/meson/issues/9300
+Running command: C:\msys64\usr\bin/bison.EXE C:/Users/zkangabci/Git/eegdev/src/core/configuration.y
+--- stdout ---
+
+--- stderr ---
+C:/Users/zkangabci/Git/eegdev/src/core/configuration.y:21.1-17: warning: deprecated directive: â€˜%name-prefix "cf"â€™, use â€˜%define api.prefix {cf}â€™ [-Wdeprecated]
+   21 | %name-prefix "cf"
+      | ^~~~~~~~~~~~~~~~~
+      | %define api.prefix {cf}
+C:/Users/zkangabci/Git/eegdev/src/core/configuration.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+
+
+Running command: C:\msys64\usr\bin/flex.EXE C:/Users/zkangabci/Git/eegdev/src/core/configuration.l
+--- stdout ---
+
+--- stderr ---
+
+
+Adding test "testexamples"
+Program sphinx-build found: NO
+Adding test "verifycast"
+Adding test "verifysplit"
+Adding test "syseegfile"
+Message: Configuration summary
+Message: =====================
+Message:     Core library build : enabled
+Message:     --------------------------
+Message:     EEG file support : enabled
+Message:     Biosemi support  : disabled
+Message:     gTec support     : disabled (loaded at runtime: false)
+Message:     Neurosky support : disabled
+Message:     TobiIA support   : enabled
+Message:     ANTneuro eego support   : enabled
+Configuring config.h using configuration
+Build targets in project: 11
+NOTICE: Future-deprecated features used:
+ * 0.56.0: {'meson.source_root', 'meson.build_root'}
+
+Found ninja-1.11.0 at C:\msys64\mingw64\bin/ninja.EXE

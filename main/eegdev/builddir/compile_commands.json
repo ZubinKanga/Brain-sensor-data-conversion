@@ -1,0 +1,134 @@
+[
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/plugins/datafile.dll.p\" \"-Isrc/plugins\" \"-I../src/plugins\" \"-I.\" \"-I..\" \"-Isrc/core\" \"-I../src/core\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" \"-D_FORTIFY_SOURCE=2\" \"-D__USE_MINGW_ANSI_STDIO=1\" -MD -MQ src/plugins/datafile.dll.p/fileout.c.obj -MF \"src/plugins/datafile.dll.p/fileout.c.obj.d\" -o src/plugins/datafile.dll.p/fileout.c.obj \"-c\" ../src/plugins/fileout.c",
+    "file": "../src/plugins/fileout.c",
+    "output": "src/plugins/datafile.dll.p/fileout.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/plugins/tobiia.dll.p\" \"-Isrc/plugins\" \"-I../src/plugins\" \"-I.\" \"-I..\" \"-Isrc/core\" \"-I../src/core\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/plugins/tobiia.dll.p/tobiia.c.obj -MF \"src/plugins/tobiia.dll.p/tobiia.c.obj.d\" -o src/plugins/tobiia.dll.p/tobiia.c.obj \"-c\" ../src/plugins/tobiia.c",
+    "file": "../src/plugins/tobiia.c",
+    "output": "src/plugins/tobiia.dll.p/tobiia.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/plugins/eego.dll.p\" \"-Isrc/plugins\" \"-I../src/plugins\" \"-I.\" \"-I..\" \"-Isrc/core\" \"-I../src/core\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/plugins/eego.dll.p/eego.c.obj -MF \"src/plugins/eego.dll.p/eego.c.obj.d\" -o src/plugins/eego.dll.p/eego.c.obj \"-c\" ../src/plugins/eego.c",
+    "file": "../src/plugins/eego.c",
+    "output": "src/plugins/eego.dll.p/eego.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev-0.dll.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev-0.dll.p/core.c.obj -MF \"src/core/libeegdev-0.dll.p/core.c.obj.d\" -o src/core/libeegdev-0.dll.p/core.c.obj \"-c\" ../src/core/core.c",
+    "file": "../src/core/core.c",
+    "output": "src/core/libeegdev-0.dll.p/core.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev-0.dll.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev-0.dll.p/device-helper.c.obj -MF \"src/core/libeegdev-0.dll.p/device-helper.c.obj.d\" -o src/core/libeegdev-0.dll.p/device-helper.c.obj \"-c\" ../src/core/device-helper.c",
+    "file": "../src/core/device-helper.c",
+    "output": "src/core/libeegdev-0.dll.p/device-helper.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev-0.dll.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev-0.dll.p/opendev.c.obj -MF \"src/core/libeegdev-0.dll.p/opendev.c.obj.d\" -o src/core/libeegdev-0.dll.p/opendev.c.obj \"-c\" ../src/core/opendev.c",
+    "file": "../src/core/opendev.c",
+    "output": "src/core/libeegdev-0.dll.p/opendev.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev-0.dll.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev-0.dll.p/sensortypes.c.obj -MF \"src/core/libeegdev-0.dll.p/sensortypes.c.obj.d\" -o src/core/libeegdev-0.dll.p/sensortypes.c.obj \"-c\" ../src/core/sensortypes.c",
+    "file": "../src/core/sensortypes.c",
+    "output": "src/core/libeegdev-0.dll.p/sensortypes.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev-0.dll.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev-0.dll.p/typecast.c.obj -MF \"src/core/libeegdev-0.dll.p/typecast.c.obj.d\" -o src/core/libeegdev-0.dll.p/typecast.c.obj \"-c\" ../src/core/typecast.c",
+    "file": "../src/core/typecast.c",
+    "output": "src/core/libeegdev-0.dll.p/typecast.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev-0.dll.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev-0.dll.p/configuration.lex.c.obj -MF \"src/core/libeegdev-0.dll.p/configuration.lex.c.obj.d\" -o src/core/libeegdev-0.dll.p/configuration.lex.c.obj \"-c\" ../src/core/configuration.lex.c",
+    "file": "../src/core/configuration.lex.c",
+    "output": "src/core/libeegdev-0.dll.p/configuration.lex.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev-0.dll.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev-0.dll.p/configuration.tab.c.obj -MF \"src/core/libeegdev-0.dll.p/configuration.tab.c.obj.d\" -o src/core/libeegdev-0.dll.p/configuration.tab.c.obj \"-c\" ../src/core/configuration.tab.c",
+    "file": "../src/core/configuration.tab.c",
+    "output": "src/core/libeegdev-0.dll.p/configuration.tab.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev_static.a.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev_static.a.p/core.c.obj -MF \"src/core/libeegdev_static.a.p/core.c.obj.d\" -o src/core/libeegdev_static.a.p/core.c.obj \"-c\" ../src/core/core.c",
+    "file": "../src/core/core.c",
+    "output": "src/core/libeegdev_static.a.p/core.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev_static.a.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev_static.a.p/device-helper.c.obj -MF \"src/core/libeegdev_static.a.p/device-helper.c.obj.d\" -o src/core/libeegdev_static.a.p/device-helper.c.obj \"-c\" ../src/core/device-helper.c",
+    "file": "../src/core/device-helper.c",
+    "output": "src/core/libeegdev_static.a.p/device-helper.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev_static.a.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev_static.a.p/opendev.c.obj -MF \"src/core/libeegdev_static.a.p/opendev.c.obj.d\" -o src/core/libeegdev_static.a.p/opendev.c.obj \"-c\" ../src/core/opendev.c",
+    "file": "../src/core/opendev.c",
+    "output": "src/core/libeegdev_static.a.p/opendev.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev_static.a.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev_static.a.p/sensortypes.c.obj -MF \"src/core/libeegdev_static.a.p/sensortypes.c.obj.d\" -o src/core/libeegdev_static.a.p/sensortypes.c.obj \"-c\" ../src/core/sensortypes.c",
+    "file": "../src/core/sensortypes.c",
+    "output": "src/core/libeegdev_static.a.p/sensortypes.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev_static.a.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev_static.a.p/typecast.c.obj -MF \"src/core/libeegdev_static.a.p/typecast.c.obj.d\" -o src/core/libeegdev_static.a.p/typecast.c.obj \"-c\" ../src/core/typecast.c",
+    "file": "../src/core/typecast.c",
+    "output": "src/core/libeegdev_static.a.p/typecast.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev_static.a.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev_static.a.p/configuration.lex.c.obj -MF \"src/core/libeegdev_static.a.p/configuration.lex.c.obj.d\" -o src/core/libeegdev_static.a.p/configuration.lex.c.obj \"-c\" ../src/core/configuration.lex.c",
+    "file": "../src/core/configuration.lex.c",
+    "output": "src/core/libeegdev_static.a.p/configuration.lex.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Isrc/core/libeegdev_static.a.p\" \"-Isrc/core\" \"-I../src/core\" \"-I.\" \"-I..\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ src/core/libeegdev_static.a.p/configuration.tab.c.obj -MF \"src/core/libeegdev_static.a.p/configuration.tab.c.obj.d\" -o src/core/libeegdev_static.a.p/configuration.tab.c.obj \"-c\" ../src/core/configuration.tab.c",
+    "file": "../src/core/configuration.tab.c",
+    "output": "src/core/libeegdev_static.a.p/configuration.tab.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Idoc/examples/saw.dll.p\" \"-Idoc/examples\" \"-I../doc/examples\" \"-I.\" \"-I..\" \"-Isrc/core\" \"-I../src/core\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ doc/examples/saw.dll.p/plugin_saw.c.obj -MF \"doc/examples/saw.dll.p/plugin_saw.c.obj.d\" -o doc/examples/saw.dll.p/plugin_saw.c.obj \"-c\" ../doc/examples/plugin/saw.c",
+    "file": "../doc/examples/plugin/saw.c",
+    "output": "doc/examples/saw.dll.p/plugin_saw.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Idoc/examples/eegdev_acq.exe.p\" \"-Idoc/examples\" \"-I../doc/examples\" \"-I.\" \"-I..\" \"-Isrc/core\" \"-I../src/core\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ doc/examples/eegdev_acq.exe.p/library-usage_eegdev_acq.c.obj -MF \"doc/examples/eegdev_acq.exe.p/library-usage_eegdev_acq.c.obj.d\" -o doc/examples/eegdev_acq.exe.p/library-usage_eegdev_acq.c.obj \"-c\" ../doc/examples/library-usage/eegdev_acq.c",
+    "file": "../doc/examples/library-usage/eegdev_acq.c",
+    "output": "doc/examples/eegdev_acq.exe.p/library-usage_eegdev_acq.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Itests/verifycast.exe.p\" \"-Itests\" \"-I../tests\" \"-I.\" \"-I..\" \"-Isrc/core\" \"-I../src/core\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ tests/verifycast.exe.p/verifycast.c.obj -MF \"tests/verifycast.exe.p/verifycast.c.obj.d\" -o tests/verifycast.exe.p/verifycast.c.obj \"-c\" ../tests/verifycast.c",
+    "file": "../tests/verifycast.c",
+    "output": "tests/verifycast.exe.p/verifycast.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Itests/verifysplit.exe.p\" \"-Itests\" \"-I../tests\" \"-I.\" \"-I..\" \"-Isrc/core\" \"-I../src/core\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ tests/verifysplit.exe.p/verifycast.c.obj -MF \"tests/verifysplit.exe.p/verifycast.c.obj.d\" -o tests/verifysplit.exe.p/verifycast.c.obj \"-c\" ../tests/verifycast.c",
+    "file": "../tests/verifycast.c",
+    "output": "tests/verifysplit.exe.p/verifycast.c.obj"
+  },
+  {
+    "directory": "C:\\Users\\zkangabci\\Git\\eegdev\\builddir",
+    "command": "\"cc\" \"-Itests/syseegfile.exe.p\" \"-Itests\" \"-I../tests\" \"-I.\" \"-I..\" \"-Isrc/core\" \"-I../src/core\" \"-fdiagnostics-color=always\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O0\" \"-g\" \"-DHAVE_CONFIG_H\" \"-DEXEEXT=\\\".exe\\\"\" -MD -MQ tests/syseegfile.exe.p/syseegfile.c.obj -MF \"tests/syseegfile.exe.p/syseegfile.c.obj.d\" -o tests/syseegfile.exe.p/syseegfile.c.obj \"-c\" ../tests/syseegfile.c",
+    "file": "../tests/syseegfile.c",
+    "output": "tests/syseegfile.exe.p/syseegfile.c.obj"
+  }
+]

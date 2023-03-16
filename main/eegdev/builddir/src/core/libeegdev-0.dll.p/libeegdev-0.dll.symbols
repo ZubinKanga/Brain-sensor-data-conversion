@@ -1,0 +1,15 @@
+libeegdev-0.dll
+
+egd_stop
+egd_start
+egd_sensor_type
+egd_sensor_name
+egd_open
+egd_get_string
+egd_get_numch
+egd_get_data
+egd_get_cap
+egd_get_available
+egd_close
+egd_channel_info
+egd_acq_setup

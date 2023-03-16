@@ -1,0 +1,11 @@
+prefix=c:/
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: eegdev
+Description: eegdev is a library that provides
+                          an interface for accessing various
+                          biosignal acquisition systems.
+Version: 1.0
+Libs: -L${libdir} -leegdev
+Cflags: -I${includedir}

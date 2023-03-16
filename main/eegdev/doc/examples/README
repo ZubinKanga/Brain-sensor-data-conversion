@@ -1,0 +1,23 @@
+
+                             EEGDEV examples
+
+
+The eegdev examples files are provided in 2 folders:
+
+
+- library-usage
+===============
+	This contains examples of how to use the eegdev library into other
+program, i.e. how to integrate the library into an acquisition loop. This
+folder provides two examples: eegdev_acq, a simple acquisition loop, and
+recinxdf, an example of how to integrate the acquisition and recording into
+one independent module.
+
+
+- plugin
+===============
+	This contains an example of implementation of a device backend. The
+plugin, saw, implement a sawtooth function generator with a configurable
+sampling rate.
+
+

@@ -1,0 +1,12 @@
+prefix=C:/Users/zkangabci/Git/eegdev/builddir
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=C:/Users/zkangabci/Git/eegdev
+
+Name: eegdev
+Description: eegdev is a library that provides
+                          an interface for accessing various
+                          biosignal acquisition systems.
+Version: 1.0
+Libs: -L${prefix}/src/core -leegdev
+Cflags: -I${prefix}/src/core -I${srcdir}/src/core -I${prefix}/src/plugins/../.. -I${srcdir}/src/plugins/../.. -I${prefix}/src/plugins/../core -I${srcdir}/src/plugins/../core

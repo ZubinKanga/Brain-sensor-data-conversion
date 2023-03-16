@@ -1,0 +1,29 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+c:/share/doc/eegdev/examples/./.gitignore
+c:/share/doc/eegdev/examples/./Makefile.am
+c:/share/doc/eegdev/examples/./meson.build
+c:/share/doc/eegdev/examples/./README
+c:/share/doc/eegdev/examples/./testexamples.sh
+c:/share/doc/eegdev/examples/./library-usage/acquisition.c
+c:/share/doc/eegdev/examples/./library-usage/acquisition.h
+c:/share/doc/eegdev/examples/./library-usage/eegdev_acq.c
+c:/share/doc/eegdev/examples/./library-usage/Makefile.in
+c:/share/doc/eegdev/examples/./library-usage/recinxdf.c
+c:/share/doc/eegdev/examples/./plugin/Makefile
+c:/share/doc/eegdev/examples/./plugin/README
+c:/share/doc/eegdev/examples/./plugin/saw.c
+c:/lib/eegdev/datafile.dll
+c:/lib/eegdev/datafile.dll.a
+c:/lib/eegdev/tobiia.dll
+c:/lib/eegdev/tobiia.dll.a
+c:/lib/eegdev/eego.dll
+c:/lib/eegdev/eego.dll.a
+c:/bin/libeegdev-0.dll
+c:/lib/libeegdev.dll.a
+c:/include/eegdev.h
+c:/include/eegdev-pluginapi.h
+c:/share/man/man5/eegdev-open-options.5
+c:/share/man/man5/eegdev-datafile.5
+c:/share/man/man5/eegdev-tobiia.5
+c:/lib/pkgconfig/eegdev.pc
