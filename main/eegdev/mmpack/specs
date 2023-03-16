@@ -1,0 +1,45 @@
+general:
+    name: eegdev
+    version: 1.0
+    maintainer: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
+    url: ssh://intranet.mindmaze.ch:29418/eegdev
+    licenses: [ LGPL-3 ]
+    Copyright: |
+      Copyright (C) 2010-2011 EPFL (Ecole Polytechnique Fédérale de Lausanne)
+      Copyright (C) 2012-2014 Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
+      Copyright (C) 2015,2016,2018,2019,2020 MindMaze Holdings SA
+    description: |
+      eegdev is a library that provides an interface for accessing various EEG
+      (and other biosignals) acquisition systems in a unified way. The interface
+      has been designed in order to be both flexible and efficient. The device
+      specific part is implemented by the means of plugins which makes adding
+      new device backend fairly easy even if the library does not support them
+      yet officially.
+    build-system: meson
+    # TODO: reenable LTO (this requires maybe rewriting tests)
+    build-options: "-Dgtec=disabled -Db_lto=false"
+    build-depends:
+        - xdffileio-devel
+        - mmlib-devel
+
+eegdev-biosemi-plugin:
+  description: |
+    The biosemi plugin implements the backend for the eegdev library for Biosemi
+    Activetwo hardware. It supports both Mk1 and Mk2 models.
+  files:
+    - .*biosemi.*
+
+eegdev-tobiia-plugin:
+  description: |
+    The tobiia plugin implements the backend for the eegdev library for reading
+    from a Tobi Interface A device.
+  files:
+    - .*tobiia.*
+
+eegdev-datafile-plugin:
+  description: |
+    The datafile plugin implements the backend for the eegdev library for
+    sourcing signal from a biosignal data file. This plugin supports all the
+    file formats supported by the xdffileio library.
+  files:
+    - .*datafile.*

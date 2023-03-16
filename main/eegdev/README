@@ -1,0 +1,39 @@
+                               EEGDEV
+
+
+
+Presentation
+============
+
+eegdev is a library that provides an interface for accessing various EEG
+(and other biosignals) acquisition systems in a unified way. The interface
+has been designed in order to be both flexible and efficient. The device
+specific part is implemented by the means of plugins which makes adding
+new device backend fairly easy even if the library does not support them yet
+officially.
+
+The core library not only provides a unified and consistent interfaces to
+the eegdev users but it also provides many functionalities to the
+device backends (plugins) ranging from configuration to data casting and
+scaling making writing new device backend an easy task.
+
+
+Supported devices
+=================
+
+As of now, the library support the following backend:
+
+ - Biosemi ActiveTwo
+ - gTec gUSBamp
+ - reading biosignal data file
+ - Tobi network Interface A
+
+
+Supported platforms
+===================
+
+This depends on which device the library should support. The core library
+supports any POSIX platform and Windows. All device backend are supported on
+these platforms excepting from the gTec gUSBamp device which is, as of now, 
+supported only on Linux i386/amd64 platforms.
+

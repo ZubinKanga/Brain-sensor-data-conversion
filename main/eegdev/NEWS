@@ -1,0 +1,20 @@
+eegdev-0.2
+===============
+
+ * Add support for more architectures (big endian, mandating alignment...)
+ * Use gnulib for most replacement functions
+ * Improve Biosemi ActiveTwo Backend
+ * Add initial support for configuration files
+
+eegdev-0.1
+===============
+
+ * Bugfixes in IPv6 support in tobiia plugin
+ * Fix glitches in manpages
+
+
+eegdev-0.0
+===============
+
+ * Initial release
+
